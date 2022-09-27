@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.salesforce.testcases.TC_004_Learning_On_Trailhead">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="endResult"/>
+          <include name="runLogin"/>
+          <include name="startReport"/>
+          <include name="setValues"/>
+          <include name="preCondition"/>
+          <include name="tearDownClass"/>
+          <include name="startTestCase"/>
+        </methods>
+      </class> <!-- com.salesforce.testcases.TC_004_Learning_On_Trailhead -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
